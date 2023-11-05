@@ -1,5 +1,5 @@
 # Data Issues
-The data came weirdly processed. First, it was mixed making reference sentences no more toxic than translate. That had to be solved by remapping those with higher toxicity in a row into reference and the other into translated. 
+The data came weirdly processed. First, it was mixed making reference sentences no more toxic than translate. That had to be solved by remapping those with higher toxicity in a row into reference and the other into translated. !["Toxicity Scores Distribution"](reports\figures\Toxicity%20Scores%20Distribution.png)
 ### What if it's another way around?
 Don't really care, if a sample happened to be somehow initially translated so poorly that it became more toxic than it's origin, then let it be as we only care about how one text could become calmer that it was. Meaning, let's learn even on preprocessing mistakes.
 ### What about borderline cases?
